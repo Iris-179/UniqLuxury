@@ -1,0 +1,118 @@
+@media (max-width:320px){
+
+    body {
+        background-color:red;
+        width: 100%;
+    
+    
+
+
+
+nav{
+   width: 100%;
+
+ #logomobile {
+    display: inline;
+   
+ }
+ #logo {
+    display: none;
+ }
+.links {
+
+   .idiomas {
+      .menu {
+         display: inline;
+ }
+ a {
+   display:none;
+      
+   }
+ }
+ .registro {
+   display:none;
+ }
+}
+}
+#banner{
+   .casafondo {
+      display: inline;
+   }
+   .principal {
+      display: none;
+   }
+   .view {
+      margin-left: 15px;
+   }
+   .buscador {
+      justify-self:left;
+      width: 310px;
+      margin-top: 150px;
+      margin-left: 50px;
+      
+   }
+}
+.contenido {
+                   
+   .texgal2 {     
+         .sale {
+           display:none;
+         }
+         .ww{
+            display:inline;
+            text-align: left;
+            transform: translateY(400px);
+         }
+      }
+   }
+.developments {
+
+   
+ .Dev{ 
+   display: inline;
+ }
+   
+ .luxury {
+ display: none;
+ text-align: left;
+ }
+}
+
+
+.seccionmobile {
+   display:inline;
+}
+.seccion2{
+   display: none;
+}
+
+ 
+
+
+ footer{
+    .cuadrogris{
+        display:none;
+    }
+    .cuadronegro {
+      width: 100%;
+      .enlaces {
+         width: 100%;
+         grid-template-columns: repeat(2, 1fr);
+      }
+      .be {
+         grid-column: span 2;
+      }
+      .call {
+         grid-column: span 2;
+         text-align: center;
+      }
+
+
+    }
+    .copyw {
+      display: none;
+    }
+ }
+}
+}
+
