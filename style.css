@@ -11,7 +11,7 @@ body {
 nav{
     height: 123px;
     width: 1920px;
-    background-color: black;
+    background-color: transparent;
     display: grid;
     grid-template-columns: 3fr 2fr;
     align-items: center ;
@@ -28,7 +28,7 @@ nav{
         display:none;
         margin-left: 50px;  
      }
-    }
+    
     
      .links {
       display: grid;
@@ -69,7 +69,7 @@ nav{
            }
          }  
       }
-  
+    }
     
 #banner {
    
@@ -95,6 +95,13 @@ nav{
 
        
      
+    }
+    .fnaranja {
+        display:none;
+    }
+    h3 {
+        display:none;
+        color:#DF991B
     }
 
     .flecha {
@@ -169,7 +176,7 @@ nav{
      background-color: white;
      width: 100%;
      height: 550px;
-     margin-top: -150px;
+     margin-top: -100px;
     
      
     
@@ -200,7 +207,8 @@ nav{
     .glasgow {
         width: 407px;
         height: 550px;
-        position: relative;
+        
+        
         .texto{
             width: 100%;
             height: 135px;
@@ -214,8 +222,9 @@ nav{
 
             width: 407px;
             height: 550px;
-            position: relative;
+          
             .texto{
+                position:relative;
                 align-self: baseline;
                 justify-self: center;
             width: 100%;
@@ -333,6 +342,11 @@ nav{
                 color: #DF991B;
                 font-family: 'PF Regal Display Pro';
               }
+              .wwg {
+                color:#DF991B;
+                display: none;
+                
+              }
             }
       
     .seccion2 {
@@ -387,37 +401,45 @@ nav{
                     }
                 }
                 
-        
-    
-    
-
-    
-
-
+.galmobile {
+    width: 320px;
+    height: 400px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 7px;
+    display: none;
+    .piscina {
+        width: 210px;
+        height: 409px;
+    }
+    .campo {
+        width: 104px;
+    }
+}
     
 .seccionmobile {
+    
     display: none;
+    
+    .hab{
+        width: 320px;
+        height: 430px;
+        margin-top: 15px;
+        
+    }
+    
+    
+    
 }
 .casafondo {
     display: none;
 }
-
-
-
-
 footer {
-
     background-color: black;
     height: 547px;
     width: 1920PX;
     margin-top: 200px;
-
-   
-
-                    
-        
         }
-
     .cuadrogris {
         height: 312px;
         width: 1676px;
@@ -426,10 +448,7 @@ footer {
         display:grid;
         grid-template-columns:1fr 1fr;
         transform: translateY(-50%);
-    
-          
     }
-
         #textocuadrogris { 
             
             font-size: 50px;
@@ -442,10 +461,8 @@ footer {
             width: 490px;
             left: 263px;
             
-            margin-left: 150px;  
-            
+            margin-left: 150px;    
         } 
-
         .gris2 {
             display: grid;
             align-self: center;
@@ -476,7 +493,6 @@ footer {
                 font-size: 25px;
             }
         }
-        
             span {
                 font-size: 40px;
                 color: #df991b;
@@ -513,6 +529,9 @@ footer {
                 text-decoration: none;
                 padding-left: 50px;
              }
+             .Homes {
+                display: none;
+             }
              .contactos {
                 text-align: left;
                 background-color: black;
@@ -525,9 +544,7 @@ footer {
                     font-size: 40px;
                 }
             }
-        }
-
-           
+        }           
     }
 
 

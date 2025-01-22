@@ -1,15 +1,23 @@
 @media (max-width:320px){
 
-    body {
-        background-color:red;
-        width: 100%;
+    html {
+        background-color:white;
+        
     
+    }
+    body {
+      width: 320px;
+      height: 100%;
     
 
+main {
+   header{
 
 
 nav{
-   width: 100%;
+   width: 320px;
+   background-color: transparent;
+
 
  #logomobile {
     display: inline;
@@ -34,34 +42,72 @@ nav{
  }
 }
 }
+   }
+    }
 #banner{
    .casafondo {
       display: inline;
+      width: 100%;
    }
    .principal {
       display: none;
+      
    }
+   .fnaranja {
+      margin-top: 50px;
+      display: inline;
+      
+   }
+   h3 {
+      display: inline;
+      
+      
+     
+   }
+   .flecha {
+      
+      margin-left: 30px;
+   }
+   .luxury {
+      margin-top: -100px;
+      margin-left: 30px;
+      width: 280px;
+         font-size: 25px;
+   
+   .h1 {
+      width: 280px;
+      font-size: 40px;
+   }
+}
    .view {
+      height: 50px;
+      width: 280px;
+      font-size: 20px;
       margin-left: 15px;
+      transform: translateY(-480px);
+      border-radius: 50px;
+   }
+   .redes {
+      display: none;
    }
    .buscador {
-      justify-self:left;
-      width: 310px;
-      margin-top: 150px;
-      margin-left: 50px;
+      align-self: center;
+      width: 280px;
+      margin-top: 200px;
+      margin-left: 80px;
+      font-size: 20px;
       
    }
 }
 .contenido {
-                   
+
+          margin-top: 100px;         
    .texgal2 {     
-         .sale {
-           display:none;
-         }
-         .ww{
-            display:inline;
-            text-align: left;
-            transform: translateY(400px);
+     
+         .h4{
+            
+           
+            display: inline;
          }
       }
    }
@@ -70,41 +116,106 @@ nav{
    
  .Dev{ 
    display: inline;
+   font-size: 45px;
+   margin-top: 50px;
  }
    
  .luxury {
  display: none;
- text-align: left;
+ margin-left: 20px;
+ }
+ .wwg {
+   margin-top: 50px;
+   display: inline;
+   text-align: left;
  }
 }
+.seccion {
+   display:none;
+}
 
+.galmobile {
+   display: inline;
+   width: 100%;
+   height: 400px;
+   display:grid;
+   grid-template-columns: 1fr 1fr;
+   margin-top: -305px;
+   
+}
 
 .seccionmobile {
    display:inline;
+   margin-top: -200px;
+  
+   
 }
 .seccion2{
    display: none;
+   width: 320px;
 }
 
  
 
 
  footer{
+
+   width: 320px;
+   height: 531px;
+   margin-top: 15px;
+ 
+   
     .cuadrogris{
         display:none;
     }
     .cuadronegro {
-      width: 100%;
+      
+      width: 320px;
+      height: 100%;
+      text-align: left;
       .enlaces {
-         width: 100%;
+         width: 320px;
+         height: 100%;
          grid-template-columns: repeat(2, 1fr);
-      }
+         
       .be {
+         width: 100%;
+         font-size: 20px;
          grid-column: span 2;
+         text-align: left;
+         margin-top: 50px;
       }
       .call {
+         width: 320px;
+         font-size: 20px;
          grid-column: span 2;
          text-align: center;
+         padding-left: 30px;
+         
+   }
+       .contactos {
+         
+       .Houses {
+         display: none;
+       }
+      .Homes {
+         display: inline;
+       }
+      }
+   
+         .mov {
+            display: none;
+         }
+         .telefono{
+            font-size: 30px;
+            width: 280px;
+            text-align:  left;
+        
+      }
+      a{
+         width: 320px;
+         text-align:  center;
+         font-size: 20px;
       }
 
 
@@ -112,7 +223,8 @@ nav{
     .copyw {
       display: none;
     }
- }
+ 
 }
 }
-
+}
+}
